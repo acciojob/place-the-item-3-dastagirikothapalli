@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex; /* Enable Flexbox layout */
+    flex-wrap: wrap; /* Allow the items to wrap to the next row if necessary */
+    justify-content: space-between; /* Evenly space the items horizontally */
+    align-items: flex-start; /* Align items to the top of the container */
+    gap: 10px; /* Provide space between items */
+}
