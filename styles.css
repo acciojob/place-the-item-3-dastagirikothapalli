@@ -1,9 +1,14 @@
-
-/* Your CSS Code here. */
 .holder {
-    display: flex; /* Enable Flexbox layout */
-    flex-wrap: wrap; /* Allow the items to wrap to the next row if necessary */
-    justify-content: space-between; /* Evenly space the items horizontally */
-    align-items: flex-start; /* Align items to the top of the container */
-    gap: 10px; /* Provide space between items */
+    display: flex;
+    flex-wrap: wrap; /* Allows items to move to the next row if needed */
+    justify-content: space-evenly; /* Distributes items evenly in a row */
+    gap: 10px; /* Adds spacing between items */
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    min-width: 100px; /* Ensures items have a minimum width */
 }
